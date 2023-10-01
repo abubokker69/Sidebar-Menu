@@ -1,0 +1,20 @@
+.sidebar {
+  @apply bg-white h-screen shadow-md;
+  .button {
+    @apply flex justify-center items-center pt-4;
+  }
+  .menu-section {
+    ul {
+      @apply flex flex-col gap-2 text-xl;
+      li {
+        @apply flex items-center px-5 h-10 md:h-14 gap-3 cursor-pointer;
+      }
+    }
+  }
+}
+
+.submenu {
+  div {
+    @apply flex  gap-2 items-center ml-12 cursor-pointer text-xl;
+  }
+}
